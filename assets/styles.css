@@ -1,0 +1,26 @@
+body {
+  background-color: #e9ecee;
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 20px;
+  color: #3f3f3f;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  margin: 10px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.app-sidebar {
+  height: calc(100vh - 100px);
+  width: 300px;
+}
